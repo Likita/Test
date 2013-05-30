@@ -5,12 +5,20 @@
 <link href="favicon.ico" type="image/x-icon" rel="icon">
 <link href="main.css" type="text/css" rel="stylesheet">
 <title>GitHub · Build software better, together.</title>
+<!-- libs -->
+<script type="text/javascript" src="js/Three.js"></script>
+<script type="text/javascript" src="js/RequestAnimationFrame.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<!-- app -->
+<script type="text/javascript" src="js/demoapp.js"></script>
+
 </head>
 
 <body>
 <div id="header-wrap">
     <div id="header" class="container clear">
-        <a class="header-logo-wordmark" href="https://github.com/">Github</a>
+        <a class="header-logo-wordmark">Github</a>       
         <span class="octicon octicon-gear "></span>
         <div class="header-actions">
           <a class="button" href="/login">Sign in</a>
@@ -29,6 +37,7 @@
 <div id='site'>
    <div id="content-wrap">
     <div id="content" class="container clear">
+    	<div id='cube'></div>
     	<form class="home-signup" method="post">
           <dl class="form">
             <dd><input type="text" class="textfield" placeholder="Pick a username"></dd>
@@ -87,6 +96,64 @@
 </div>
 </body>
 <div id='footer'>
+	<div class="container">
+    <div class="clear">
+      <dl class="footer-menu">
+        <dt>GitHub</dt>
+        <dd><a href="/about">About us</a></dd>
+        <dd><a href="/blog">Blog</a></dd>
+        <dd><a href="/contact">Contact &amp; support</a></dd>
+        <dd><a href="http://enterprise.github.com/">GitHub Enterprise</a></dd>
+        <dd><a href="http://status.github.com/">Site status</a></dd>
+      </dl>
+
+      <dl class="footer-menu">
+        <dt>Applications</dt>
+        <dd><a href="http://mac.github.com/">GitHub for Mac</a></dd>
+        <dd><a href="http://windows.github.com/">GitHub for Windows</a></dd>
+        <dd><a href="http://eclipse.github.com/">GitHub for Eclipse</a></dd>
+        <dd><a href="http://mobile.github.com/">GitHub mobile apps</a></dd>
+      </dl>
+
+      <dl class="footer-menu">
+        <dt>Services</dt>
+        <dd><a href="http://get.gaug.es/">Gauges: Web analytics</a></dd>
+        <dd><a href="http://speakerdeck.com">Speaker Deck: Presentations</a></dd>
+        <dd><a href="https://gist.github.com">Gist: Code snippets</a></dd>
+        <dd><a href="http://jobs.github.com/">Job board</a></dd>
+      </dl>
+
+      <dl class="footer-menu">
+        <dt>Documentation</dt>
+        <dd><a href="http://help.github.com/">GitHub Help</a></dd>
+        <dd><a href="http://developer.github.com/">Developer API</a></dd>
+        <dd><a href="http://github.github.com/github-flavored-markdown/">GitHub Flavored Markdown</a></dd>
+        <dd><a href="http://pages.github.com/">GitHub Pages</a></dd>
+      </dl>
+
+      <dl class="footer-menu">
+        <dt>More</dt>
+        <dd><a href="http://training.github.com/">Training</a></dd>
+        <dd><a href="/edu">Students &amp; teachers</a></dd>
+        <dd><a href="http://shop.github.com">The Shop</a></dd>
+        <dd><a href="/plans">Plans &amp; pricing</a></dd>
+        <dd><a href="http://octodex.github.com/">The Octodex</a></dd>
+      </dl>
+	</div>
+      <hr class="footer-divider">
+
+
+    <p class="right">&copy; 2013 <span title="0.01194s from fe2.rs.github.com">GitHub</span>, Inc. All rights reserved.</p>
+    <a class="left" href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+    <ul id="legal">
+        <li><a href="/site/terms">Terms of Service</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+    </ul>
+
+  </div><!-- /.container -->
 </div>
 </body>
 </html>
